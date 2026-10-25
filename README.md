@@ -56,6 +56,12 @@ Lo que no se pudo identificar queda como `"No identificada"`.
 - **Concesionarios y comercializadoras:** MCV Comercial, Womy, Dongfeng Cuba, BDC One (catálogos en PDF y web).
 - **Mercado informal:** anuncios de carros de Revolico.
 
+## Journals
+
+Los diarios de trabajo se encuentran en:
+- `journals/` - diarios generales del proyecto
+- `docs/journals/` - diarios metodológicos e investigación
+
 ## Pendiente
 
 - Entrevistas a compradores: la encuesta ya está en `docs/encuesta_compradores.md`, falta aplicarla.
