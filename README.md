@@ -29,7 +29,7 @@ El flujo es: **raw → processed**.
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 
 python src/transform.py   # genera data/processed/unified_cars.csv
 ```
