@@ -60,3 +60,12 @@ Lo que no se pudo identificar queda como `"No identificada"`.
 
 - Entrevistas a compradores: la encuesta ya está en `docs/encuesta_compradores.md`, falta aplicarla.
 - Tabla para emparejar modelos entre canales.
+
+
+## Metodología y análisis de la encuesta
+
+Se ha documentado el análisis detallado por pregunta con sus resultados y la forma en que se presentan las respuestas de los entrevistados en:
+
+- [docs/methodology/ANALISIS_POR_PREGUNTA_Y_RESPUESTAS.md](docs/methodology/ANALISIS_POR_PREGUNTA_Y_RESPUESTAS.md)
+
+Este documento incluye: codificación de variables, frecuencias/porcentajes por pregunta, ejemplos textuales de respuestas múltiples, principales hallazgos y resumen ejecutivo.
