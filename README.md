@@ -55,6 +55,7 @@ Lo que no se pudo identificar queda como `"No identificada"`.
 
 - **Concesionarios y comercializadoras:** MCV Comercial, Womy, Dongfeng Cuba, BDC One (catálogos en PDF y web).
 - **Mercado informal:** anuncios de carros de Revolico.
+- **Información sobre el registro de vehículos en 2026 de la Dirección de Vehículos
 
 ## Journals
 
@@ -64,13 +65,14 @@ Los diarios de trabajo se encuentran en:
 
 ## Pendiente
 
-- Entrevistas a compradores: la encuesta ya está en `docs/encuesta_compradores.md`, falta aplicarla.
-- Tabla para emparejar modelos entre canales.
+- Entrevistas a compradores: la encuesta ya está en `docs/encuesta_compradores.md`, falta aplicarla a un grupo de personas y completar los resultados en form.google
+- Tabla para emparejar modelos entre canales
+- Ir mejorando la redacción de la metodología
 
 
 ## Metodología y análisis de la encuesta
 
-Se ha documentado el análisis detallado por pregunta con sus resultados y la forma en que se presentan las respuestas de los entrevistados en:
+Se realizó una búsqueda inicial sobre el tema de investigación para conocer que es el mercado de un producto o servicio y los elementos que hay que tener en cuenta. La búsqueda nos permitió consultar el libro: Introducción al estudio del mercado de una autora peruana, a partir de estudiar los ejemplos que aparecen en el libro, se elaboró una primera versión  del cuestionario con cerca de 28 preguntas, que fue mejorado a partir de la consulta de la profesora Ariadna Velázquez y posteriormente adicionado a form.google.com para completar digitalmente las respuestas. En la carpeta methodology se encuentra un archivo con la explicación de los pasos seguidos, las fuentes consultadas y también el cuestionario final aplicado y las respuestas de los entrevistados hasta el día de hoy
 
 - [docs/methodology/ANALISIS_POR_PREGUNTA_Y_RESPUESTAS.md](docs/methodology/ANALISIS_POR_PREGUNTA_Y_RESPUESTAS.md)
 
