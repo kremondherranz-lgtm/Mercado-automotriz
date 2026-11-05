@@ -70,6 +70,7 @@ Lo que no se pudo identificar queda como `"No identificada"`.
 Los diarios de trabajo se encuentran en:
 - `journals/` - diarios generales del proyecto
 - `docs/journals/` - diarios metodológicos e investigación
+- `data/journals/` - notas sobre fuentes y procesamiento de datos
 
 ## Pendiente
 

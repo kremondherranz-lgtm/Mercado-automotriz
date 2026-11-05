@@ -49,7 +49,7 @@ Resultados listos para análisis.
 
 ## journals/
 
-Directorio vacío reservado para notas de trabajo sobre los datos.
+Notas de trabajo sobre las fuentes y el procesamiento. Contiene `README.md` y `2026-11-05.md` (inventario y duplicados detectados).
 
 ## Reglas
 
