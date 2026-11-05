@@ -4,7 +4,7 @@ Directorio destinado a las evidencias del trabajo de campo: capturas, fotos, com
 
 ## Estado
 
-Actualmente está vacío. Las imágenes de apoyo disponibles están en `Anexos/Anexo 3/`.
+Contiene cuatro imágenes de WhatsApp del trabajo de campo (`WhatsApp Image 2026-11-05 at *.jpeg`). Las imágenes de apoyo complementarias están en `Anexos/Anexo 3/`.
 
 ## Uso previsto
 
