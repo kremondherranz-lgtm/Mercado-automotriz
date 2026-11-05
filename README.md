@@ -6,21 +6,26 @@ Proyecto de la asignatura Introducción a la Ciencia de Datos. Queremos saber qu
 
 ```
 requirements.txt     # librerías necesarias
+AGENTS.md            # convenciones y reglas del proyecto
+Anexos/              # anexos del trabajo (cuestionario, fotos, datos de apoyo)
+Storytelling/        # guion de la presentación de resultados
 data/
-  raw/               # un CSV por fuente, sin procesar
-    dongfeng_nwi_commercial.csv
-    mcv_commercial_2026-03-03.csv
-    womy_catalog_july_2026.csv
-    bdcone_commercial.csv
-    revolico_cars.csv   # ~100 anuncios, muestra representativa por marca
-  processed/         # resultado final, listo para consultas
+  raw/               # un archivo por fuente, sin procesar
+  processed/         # resultados listos para análisis
+    survey.csv
+    tablas_graficas/
 docs/
-  pdf/                       # catálogos de concesionarios en PDF
-  encuesta_compradores.md    # encuesta para entrevistar compradores potenciales
-  contexto_mercado.md        # datos oficiales (ONEI, ICEX) para comparar contra el dataset
+  fuentes/           # catálogos PDF y fuentes oficiales (ONEI, ICEX)
+  methodology/       # cuestionario, pasos seguidos y análisis por pregunta
+  journals/          # diarios de investigación
+evidencia/           # evidencias del trabajo de campo
+journals/            # diarios de trabajo del equipo
 src/
   transform.py       # une los CSV de data/raw/ y guarda data/processed/unified_cars.csv
+  clean_survey.py    # limpia la encuesta y guarda data/processed/survey.csv
 ```
+
+Cada carpeta de primer nivel tiene su propio `README.md` con el detalle de sus archivos.
 
 El flujo es: **raw → processed**.
 
@@ -31,7 +36,8 @@ python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
 
-python src/transform.py   # genera data/processed/unified_cars.csv
+python src/transform.py      # genera data/processed/unified_cars.csv
+python src/clean_survey.py   # genera data/processed/survey.csv
 ```
 
 ## Columnas del resultado
@@ -55,7 +61,9 @@ Lo que no se pudo identificar queda como `"No identificada"`.
 
 - **Concesionarios y comercializadoras:** MCV Comercial, Womy, Dongfeng Cuba, BDC One (catálogos en PDF y web).
 - **Mercado informal:** anuncios de carros de Revolico.
-- **Información sobre el registro de vehículos en 2026 de la Dirección de Vehículos
+- **Registro de vehículos eléctricos:** datos de adquisiciones por particulares y por entidades estatales.
+- **Fuentes oficiales:** estadísticas de la ONEI y estudio de componentes del mercado automovilístico cubano (ICEX).
+- Los catálogos en PDF y las fuentes oficiales están en `docs/fuentes/`.
 
 ## Journals
 
@@ -65,9 +73,9 @@ Los diarios de trabajo se encuentran en:
 
 ## Pendiente
 
-- Entrevistas a compradores: la encuesta ya está en `docs/encuesta_compradores.md`, falta aplicarla a un grupo de personas y completar los resultados en form.google
-- Tabla para emparejar modelos entre canales
-- Ir mejorando la redacción de la metodología
+- Ampliar la muestra de la encuesta y mantener actualizados los resultados del formulario.
+- Tabla para emparejar modelos entre canales.
+- Ir mejorando la redacción de la metodología.
 
 
 ## Metodología y análisis de la encuesta

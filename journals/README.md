@@ -1,9 +1,17 @@
 # Diarios de trabajo
 
-Este directorio contiene los diarios/journals del proyecto "Mercado de autos en Cuba".
+Diarios del equipo sobre el avance del proyecto "Mercado de autos en Cuba".
+
+## Contenido
+
+- `2026-10-25.md` — sesión de trabajo inicial: configuración del repositorio, carga de datos crudos, procesamiento, documentación y refactorización.
 
 ## Propósito
-Documentar el proceso de trabajo, decisiones tomadas, hallazgos y avances del proyecto.
+
+Registrar el proceso de trabajo, las decisiones tomadas, los hallazgos y los avances, con el fin de dejar trazabilidad del desarrollo del proyecto.
 
 ## Formato
-Los archivos pueden nombrarse por fecha: `YYYY-MM-DD.md` o `journal_YYYY-MM-DD.md`
+
+Los archivos se nombran por fecha: `YYYY-MM-DD.md` o `journal_YYYY-MM-DD.md`.
+
+Los diarios de investigación y metodología se encuentran en `docs/journals/`.
