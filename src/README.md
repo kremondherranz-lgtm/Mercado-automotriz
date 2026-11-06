@@ -23,3 +23,4 @@ python src/clean_survey.py
 - `transform.py` es la fuente de verdad para el mapeo de columnas, el canal (`formal`/`informal`), la marca y la conversión a USD.
 - La conversión usa `EXCHANGE_RATE_TO_CUP` con tasas informales; para actualizarla, se edita ese diccionario.
 - `clean_survey.py` procesa la exportación `(1)` del formulario.
+- `data/processed/unified_cars.csv` no está versionada; se regenera con `transform.py`.

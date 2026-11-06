@@ -36,16 +36,17 @@ Un archivo por fuente, sin procesar.
 - `Registro de vehiculos_electricos.xlsx` — registro de vehículos eléctricos.
 - `Registro de autos_electricos_adquiridos por particulares.xlsx` — adquisiciones de eléctricos por particulares.
 - `Registro de autos_electricos_adquiridos por entidades estatales.xlsx` — adquisiciones de eléctricos por entidades estatales.
+- `embudos_vehiculos.xlsx` — datos de embudos (funnels) de vehículos.
 - `Mcv_tipo de carros.xlsx`, `Gongfeng_tipo de carros.xlsx`, `womy_tipo de carros.xlsx`, `BDCone_tipo de carros.xlsx` — desglose por tipo de vehículo de cada comercializadora.
 
 ## processed/
 
 Resultados listos para análisis.
 
-- `unified_cars.csv` — tabla unificada que genera `src/transform.py`. Columnas: `company, seller_type, channel, brand, model, year, price, currency, price_usd, province, source`.
+- `unified_cars.csv` — tabla unificada que genera `src/transform.py` (se regenera al ejecutar el script; no está versionada actualmente). Columnas: `company, seller_type, channel, brand, model, year, price, currency, price_usd, province, source`.
 - `survey.csv` — encuesta con columnas renombradas a inglés, generada por `src/clean_survey.py`.
 - `INFORME_4_11_2026_con_interpretaciones.docx` — informe con interpretaciones de los resultados.
-- `tablas_graficas/` — tablas y gráficas del análisis exploratorio de la encuesta.
+- `tablas_graficas/` — tablas y gráficas del análisis exploratorio de la encuesta (`graficas_preliminares.xlsx`, `graficas_analisis_combinando varias preguntas.xlsx` y `graficas_analisis_inicial_caracterizacion_encuestados.xlsx`).
 
 ## journals/
 

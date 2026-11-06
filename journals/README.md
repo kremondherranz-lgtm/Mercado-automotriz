@@ -5,7 +5,7 @@ Diarios del equipo sobre el avance del proyecto "Mercado de autos en Cuba".
 ## Contenido
 
 - `2026-10-25.md` — sesión de trabajo inicial: configuración del repositorio, carga de datos crudos, procesamiento, documentación y refactorización.
-- `2026-11-05.md` — revisión de la estructura, README por carpeta, actualización del README raíz y commit de documentación.
+- `2026-11-05.md` — revisión de la estructura, actualización de README por carpeta, inventario de nuevas fuentes y datos, y sincronización con el remoto.
 
 ## Propósito
 

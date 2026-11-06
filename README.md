@@ -8,17 +8,18 @@ Proyecto de la asignatura Introducción a la Ciencia de Datos. Queremos saber qu
 requirements.txt     # librerías necesarias
 AGENTS.md            # convenciones y reglas del proyecto
 Anexos/              # anexos del trabajo (cuestionario, fotos, datos de apoyo)
-Storytelling/        # guion de la presentación de resultados
+Storytelling/        # guion y artículo de presentación de resultados
 data/
   raw/               # un archivo por fuente, sin procesar
   processed/         # resultados listos para análisis
     survey.csv
+    INFORME_4_11_2026_con_interpretaciones.docx
     tablas_graficas/
 docs/
-  fuentes/           # catálogos PDF y fuentes oficiales (ONEI, ICEX)
-  methodology/       # cuestionario, pasos seguidos y análisis por pregunta
+  fuentes/           # catálogos PDF, libro de mercado y fuentes oficiales (ONEI, ICEX)
+  methodology/       # cuestionario, leyenda, pasos seguidos y análisis por pregunta
   journals/          # diarios de investigación
-evidencia/           # evidencias del trabajo de campo
+evidencia/           # evidencias del trabajo de campo (fotos)
 journals/            # diarios de trabajo del equipo
 src/
   transform.py       # une los CSV de data/raw/ y guarda data/processed/unified_cars.csv
@@ -63,7 +64,8 @@ Lo que no se pudo identificar queda como `"No identificada"`.
 - **Mercado informal:** anuncios de carros de Revolico.
 - **Registro de vehículos eléctricos:** datos de adquisiciones por particulares y por entidades estatales.
 - **Fuentes oficiales:** estadísticas de la ONEI y estudio de componentes del mercado automovilístico cubano (ICEX).
-- Los catálogos en PDF y las fuentes oficiales están en `docs/fuentes/`.
+- **Bibliografía y catálogos adicionales:** `LIBRO_ESTUDIO_DE_MERCADO_VF (1).pdf` (libro de estudio de mercado) y `vehiculos-comerciales-abril-2026.CRrY5k95.pdf`.
+- Los catálogos en PDF, el libro y las fuentes oficiales están en `docs/fuentes/`.
 
 ## Journals
 
@@ -77,6 +79,9 @@ Los diarios de trabajo se encuentran en:
 - Ampliar la muestra de la encuesta y mantener actualizados los resultados del formulario.
 - Tabla para emparejar modelos entre canales.
 - Ir mejorando la redacción de la metodología.
+- Regenerar `data/processed/unified_cars.csv` (no está versionada actualmente).
+- Excluir los temporales de Office (`Anexos/~$...` y `data/processed/~$...`).
+- Evaluar Git LFS para los PDF grandes de `docs/fuentes/`.
 
 
 ## Metodología y análisis de la encuesta

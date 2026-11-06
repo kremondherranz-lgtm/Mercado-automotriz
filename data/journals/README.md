@@ -4,7 +4,7 @@ Notas de trabajo sobre las fuentes y el procesamiento de datos.
 
 ## Contenido
 
-- `2026-11-05.md` — inventario de fuentes, duplicados detectados y estado de la encuesta.
+- `2026-11-05.md` — inventario de fuentes, duplicados detectados, nuevos archivos de datos y estado de los resultados procesados.
 
 ## Propósito
 
